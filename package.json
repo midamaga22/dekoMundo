@@ -1,0 +1,26 @@
+{
+  "name": "dekomundo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.5",
+    "material-design-iconic-font": "^2.2.0",
+    "vue": "^3.5.13",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^4.5.1",
+    "vue3-carousel": "^0.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.4",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
