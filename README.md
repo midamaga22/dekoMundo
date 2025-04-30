@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dekomundo
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -27,3 +28,7 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# dekoMundo
+ecommerce en vue js 3 
+>>>>>>> 7cc5d01e6fa880296d03e1ebe052376937a509f0
