@@ -24,15 +24,9 @@
               <!-- Single-banner start -->
               <div class="single-banner banner-1 banner-4">
                 <a class="banner-thumb" href="#">
-                  <img 
-                    src="@/assets/img/banner/roomvo-banner-mobile.jpeg" 
-                    alt="Visualizador DEKO móvil"
-                    loading="lazy"
-                  >
+                  <img src="@/assets/img/banner/roomvo-banner-mobile.jpeg"  alt="Visualizador DEKO móvil" loading="lazy">
                 </a>	
-                <a href="#" class="button-one font-16px" data-text="INICIAR EXPERIENCIA">
-                  INICIAR EXPERIENCIA
-                </a>
+                <a href="#" class="button-one font-16px" data-text="INICIAR EXPERIENCIA">INICIAR EXPERIENCIA</a>
               </div>
               <!-- Single-banner end -->					
             </div>
@@ -41,20 +35,13 @@
       </div>
       <!-- BANNER-AREA END -->
     </div>
-  </template>
+</template>
   
-  <script>
-  import { defineComponent } from 'vue';
+<script setup>
+</script>
   
-  export default defineComponent({
-    name: 'VenezuelaDekoMundo',
-    setup() {
-      return {};
-    }
-  });
-  </script>
-  
-  <style scoped>
+<style scoped>
+
   /* Estilos específicos del componente */
   .banner-area {
     margin: 0;

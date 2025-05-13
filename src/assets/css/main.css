@@ -1,0 +1,61 @@
+/* Estilos base y reset */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Estilos para títulos */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+    margin-top: 0;
+  }
+  
+  /* Estilos para el layout */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-lg-6, .col-md-6 {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    
+    .mt-xs-30 {
+      margin-top: 30px;
+    }
+     /* Estilos para el fondo blanco */
+  .bg-white {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Utilidades */
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  }
+  
+ 

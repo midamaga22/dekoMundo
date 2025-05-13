@@ -1,4 +1,4 @@
-<template>
+  <template>
     <footer class="site-footer">
       <div class="copyright-area copyright-2">
         <div class="container">
@@ -22,7 +22,6 @@
   const logoUrl = ref(new URL('@/assets/img/logo/logo.png', import.meta.url).href)
   const currentYear = ref(new Date().getFullYear())
   
-  // Si necesitamos lógica cuando el componente se monta
   onMounted(() => {
     console.log('Footer montado')
   })

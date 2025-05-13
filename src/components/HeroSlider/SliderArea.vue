@@ -16,20 +16,20 @@ const slides = ref([
     image: new URL('@/assets/img/slider/slider-2/03.jpg', import.meta.url).href,
     alt: 'Slide 3',
   },
-  // ... otros slides
+ 
 ]);
 
-// Configuración del carrusel automático
+
 const carouselSettings = ref({
   itemsToShow: 1,
   snapAlign: 'center',
-  wrapAround: true, // Permite que el carrusel sea infinito
-  autoplay: 3000, // Tiempo en milisegundos (3 segundos)
-  pauseAutoplayOnHover: true, // Pausa el autoplay al hacer hover
-  // Configuración para paginación y navegación
+  wrapAround: true, 
+  autoplay: 3000,
+  pauseAutoplayOnHover: true, 
+ 
   paginationEnabled: true,
-  paginationActiveColor: '#42b983', // Color del punto activo
-  paginationColor: '#cccccc', // Color de los puntos inactivos
+  paginationActiveColor: '#42b983', 
+  paginationColor: '#cccccc', 
   navigationEnabled: true,
   navigationNextLabel: '›',
   navigationPrevLabel: '‹',

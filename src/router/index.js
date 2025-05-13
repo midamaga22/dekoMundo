@@ -1,22 +1,28 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-// Opción 1: Usando import directo (recomendado para rutas principales)
-import mainView from '@/views/home/mainView.vue'
-import VinilView from '@/views/pisos/viewVinil.vue'
-
-// Opción 2: Usando lazy-loading (recomendado para rutas secundarias)
-// const VinilView = () => import('@/views/pisos/viewVinil.vue')
+import Category from '@/views/Category.vue'
+import Home from '@/views/Home.vue'
 
 const routes = [
   {
-    path: '/mainView',
-    name: 'mainView',
-    component: mainView// Usa solo UNA de las opciones anteriores
+    path: '/',
+    name: 'home',
+    component: Home
   },
   {
-    path: '/viewVinil',
-    name: 'vinil',
-    component: VinilView // Usa solo UNA de las opciones anteriores
+    path: '/cat/:category/:name',
+    name: 'category',
+    component: Category 
+  },
+  {
+    path: '/item/:code',
+    name: 'item',
+    component: Category 
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Category
   }
 ]
 

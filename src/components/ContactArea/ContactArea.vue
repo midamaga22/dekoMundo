@@ -16,8 +16,7 @@
           <!-- Columna de información de contacto -->
           <div class="col-lg-6 col-md-6">
             <ContactInfo />
-          </div>
-          
+          </div>        
           <!-- Columna del formulario -->
           <div class="col-lg-6 col-md-6 mt-xs-30">
             <ContactForm />
@@ -51,6 +50,4 @@ import ContactForm from '../ContactArea/ContactInfo.vue.vue';
 .mt-30 {
   margin-top: 30px;
 }
-
-/* Puedes agregar más estilos específicos del componente aquí */
 </style>

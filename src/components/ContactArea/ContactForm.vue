@@ -33,10 +33,11 @@
           placeholder="Mensaje*" 
           required
         ></textarea>
-        
+    
         <button 
           class="button-one submit-button mt-30" 
           type="submit"
+          data-text="Enviar mensaje"
           :disabled="isSubmitting"
         >
           {{ isSubmitting ? 'Enviando...' : 'Enviar mensaje' }}
@@ -122,7 +123,7 @@
   .button-one {
     background-color: #333;
     color: white;
-    padding: 12px 20px;
+    height: 35px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
